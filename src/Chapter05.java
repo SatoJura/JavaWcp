@@ -8,6 +8,10 @@ public class Chapter05 {
 		//プリミティブ型の「double」
 		double double1 = 1234567.89;
 		System.out.println(double1);
+		
+		//プリミティブ型の「boolean」
+		boolean boolean1 = true;
+		System.out.println(boolean1);
 	}
 
 }
