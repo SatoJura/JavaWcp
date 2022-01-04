@@ -16,6 +16,10 @@ public class Chapter05 {
 		//ラッパー型の「Float」
 		Float float1 = 3.141592f;
 		System.out.println(float1);
+		
+		//ラッパー型の「Integer」
+		Integer integer1 = 100;
+		System.out.println(integer1);
 	}
 
 }
