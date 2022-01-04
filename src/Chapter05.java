@@ -12,6 +12,10 @@ public class Chapter05 {
 		//プリミティブ型の「boolean」
 		boolean boolean1 = true;
 		System.out.println(boolean1);
+		
+		//ラッパー型の「Float」
+		Float float1 = 3.141592f;
+		System.out.println(float1);
 	}
 
 }
