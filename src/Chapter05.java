@@ -20,6 +20,9 @@ public class Chapter05 {
 		//ラッパー型の「Integer」
 		Integer integer1 = 100;
 		System.out.println(integer1);
+		
+		//ラッパー型の「Character」
+		Character character1 =  'C';
+		System.out.println(character1);
 	}
-
 }
