@@ -24,5 +24,9 @@ public class Chapter05 {
 		//ラッパー型の「Character」
 		Character character1 =  'C';
 		System.out.println(character1);
+		
+		//配列
+		int[] array = {0, 10, 20, 30 , 40};
+		System.out.println(array[3]);
 	}
 }
