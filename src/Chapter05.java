@@ -25,8 +25,12 @@ public class Chapter05 {
 		Character character1 =  'C';
 		System.out.println(character1);
 		
-		//配列
+		//配列 int
 		int[] array = {0, 10, 20, 30 , 40};
 		System.out.println(array[3]);
+		
+		//配列 String
+		String[] array1 = new String[] {"はな","flower","フラワー"};
+		System.out.println(array1[1]);
 	}
 }
