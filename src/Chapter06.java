@@ -16,5 +16,9 @@ public class Chapter06 {
 		// 等価
 		boolean bool = (val == 50);
 		System.out.println(bool);
+		
+		// valは50より小さい AND valを10で割った余りが0
+		bool = (val < 50) && (val % 10 == 0); 
+		System.out.println(bool);
 	}
 }
