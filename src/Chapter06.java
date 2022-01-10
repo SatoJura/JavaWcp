@@ -12,5 +12,9 @@ public class Chapter06 {
 		// 掛ける5
 		val *= 5;
 		System.out.println(val);
+		
+		// 等価
+		boolean bool = (val == 50);
+		System.out.println(bool);
 	}
 }
