@@ -4,5 +4,9 @@ public class Chapter06 {
 		// 2足す5
 		int val = 2 + 5;
 		System.out.println(val);
+		
+		// インクリメント
+		val ++;
+		System.out.println(val);
 	}
 }
