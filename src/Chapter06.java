@@ -8,5 +8,9 @@ public class Chapter06 {
 		// インクリメント
 		val ++;
 		System.out.println(val);
+		
+		// 掛ける5
+		val *= 5;
+		System.out.println(val);
 	}
 }
