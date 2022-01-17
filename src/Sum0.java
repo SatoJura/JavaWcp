@@ -16,5 +16,13 @@ public class Sum0 {
 		}
 		System.out.println("奇数の合計は" + oddSum + "です");
 		System.out.println("偶数の合計は" + evenSum + "です");
+		
+		// 1~100までの奇数の合計を求めよ
+		int oddSum1 = 0;
+		
+		for (int i = 1; i <= 100; i+=2) {
+			oddSum1 += i;
+		}
+		System.out.println("1~100までの奇数の合計は" + oddSum1 + "です");
 	}
 }
