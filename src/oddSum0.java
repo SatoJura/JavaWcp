@@ -20,5 +20,13 @@ public class oddSum0 {
 			}
 			System.out.println(i);
 		}
+		
+		// 奇数を出力④
+		int[] numbers = {1,4,5,6,7,9};
+		for (int number: numbers) {
+			if (number % 2 != 0) {
+				System.out.println("④" + number);
+			}
+		}
 	}
 }
