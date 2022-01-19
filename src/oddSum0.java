@@ -28,5 +28,11 @@ public class oddSum0 {
 				System.out.println("④" + number);
 			}
 		}
+		 // 奇数を出力⑤
+		int j = 1;
+		while (j <= 10) {
+			System.out.println("⑤" + j);
+			j += 2;
+		}
 	}
 }
