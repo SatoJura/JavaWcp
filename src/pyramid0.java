@@ -14,5 +14,16 @@ public class pyramid0 {
 			}
 			System.out.println();
 		}
+		
+		// ②
+		for (int a=0; a<5; a++) {
+			for (int space=0; space<a; space++) {
+				System.out.print(" ");
+			}
+			for (int ast=0; ast<(5-a)*2-1; ast++) {
+				System.out.print("*");
+			}
+			System.out.print("\n");
+		}
 	}
 }
