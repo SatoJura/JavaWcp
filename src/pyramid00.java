@@ -7,7 +7,7 @@ public class pyramid00 {
 			for (int j=0; j<5-(i+1); j++) {
 				System.out.print(" ");
 			}
-			// 空白の右隣に✳
+			// 空白の右隣に1行ごとの*を出力
 			for (int k=0; k<(i+1)*2-1; k++) {
 				System.out.print("*");
 			}
