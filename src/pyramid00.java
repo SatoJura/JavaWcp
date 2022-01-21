@@ -34,5 +34,16 @@ public class pyramid00 {
 			}
 			System.out.println();
 		}
+		
+		// ③3段ピラミッド
+		for (int dan=0; dan<3; dan++) {
+			for (int spa=0; spa<3-(dan+1); spa++) {
+				System.out.print(" ");
+			}
+			for (int astr=0; astr<(dan+1)*2-1; astr++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
 	}
 }
