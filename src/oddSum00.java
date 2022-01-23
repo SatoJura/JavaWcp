@@ -26,5 +26,12 @@ public class oddSum00 {
 			oddSum2 += i;
 		}
 		System.out.println("奇数の合計は " + oddSum2);
+		
+		// 奇数の合計④
+		int oddSum3 = 0;
+		for (int i=1; i<100; i+=2) {
+			oddSum3+=i;
+		}
+		System.out.println("④奇数の合計は " + oddSum3);
 	}
 }
