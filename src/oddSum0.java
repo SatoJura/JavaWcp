@@ -34,5 +34,13 @@ public class oddSum0 {
 			System.out.println("⑤" + j);
 			j += 2;
 		}
+		
+		// 奇数を出力⑥
+		int[] nums = {1,4,7,8,10,12,15,20};
+		for (int num: nums) {
+			if (num % 2 != 0) {
+				System.out.println("⑥" + num);
+			}
+		}
 	}
 }
