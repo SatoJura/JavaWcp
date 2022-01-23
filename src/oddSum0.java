@@ -42,5 +42,10 @@ public class oddSum0 {
 				System.out.println("⑥" + num);
 			}
 		}
+		
+		// 奇数を出力⑦
+		for (int a=1; a<=25; a+=2) {
+			System.out.println("⑦" +a);
+		}
 	}
 }
