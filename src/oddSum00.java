@@ -33,5 +33,14 @@ public class oddSum00 {
 			oddSum3+=i;
 		}
 		System.out.println("④奇数の合計は " + oddSum3);
+		
+		// 奇数の合計⑤
+		int oddSum4 = 0;
+		for (int i=1; i<100; i++) {
+			if (i % 2 != 0) {
+				oddSum4+=i;
+			}
+		}
+		System.out.println("⑤奇数の合計は " + oddSum4);
 	}
 }
