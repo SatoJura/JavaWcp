@@ -22,5 +22,16 @@ public class pyramid000 {
 			}
 			System.out.print("\n");
 		}
+		
+		// 逆ピラミッド4段にして、ひし形にする③
+		for (int i=0; i<4; i++) {
+			for (int j=0; j<i+1; j++) {
+				System.out.print(" ");
+			}
+			for (int a=0; a<(4-i)*2-1; a++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
 	}
 }
