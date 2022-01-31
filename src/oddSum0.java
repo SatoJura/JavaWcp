@@ -47,5 +47,12 @@ public class oddSum0 {
 		for (int a=1; a<=25; a+=2) {
 			System.out.println("⑦" +a);
 		}
+		
+		// 奇数を出力⑧
+		for (int i=1; i<=15; i++) {
+			if (i % 2 != 0) {
+				System.out.println("⑧" +i);
+			}
+		}
 	}
 }
