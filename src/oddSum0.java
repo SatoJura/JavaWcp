@@ -54,5 +54,13 @@ public class oddSum0 {
 				System.out.println("⑧" +i);
 			}
 		}
+		
+		//奇数を出力⑨
+		int [] numm = {100,121,144,155,165,177,180};
+		for (int num : numm) {
+			if (num % 2 != 0) {
+				System.out.println("⑨" +num);
+			}
+		}
 	}
 }
