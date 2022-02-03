@@ -16,5 +16,12 @@ public class ForFor0 {
 				System.out.println(i + " 年 " + j + " 組");
 			}
 		}
+		
+		// ③
+		for (int i = 1; i <= 3; i++) {
+			for (int j = 1; j <= 3; j++) {
+				System.out.println("③" + i + "+" + j);
+			}
+		}
 	}
 }
