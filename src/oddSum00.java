@@ -42,5 +42,15 @@ public class oddSum00 {
 			}
 		}
 		System.out.println("⑤奇数の合計は " + oddSum4);
+		
+		// 奇数の合計⑥
+		int oddSum5 = 0;
+		int[] array = {1,4,5,7,9,10};
+		for (int oddNum : array) {
+			if (oddNum % 2 != 0) {
+				oddSum5 += oddNum;
+			}
+		}
+		System.out.println("⑥奇数の合計は" + oddSum5);
 	}
 }
