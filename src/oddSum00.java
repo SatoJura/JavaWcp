@@ -52,5 +52,12 @@ public class oddSum00 {
 			}
 		}
 		System.out.println("⑥奇数の合計は" + oddSum5);
+		
+		// 奇数の合計⑦
+		int oddSum6 = 0;
+		for (int i = 1; i <= 10; i+=2) {
+			oddSum6 += i;
+		}
+		System.out.println("⑦奇数の合計は" + oddSum6);
 	}
 }
