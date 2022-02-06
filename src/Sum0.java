@@ -24,5 +24,14 @@ public class Sum0 {
 			oddSum1 += i;
 		}
 		System.out.println("1~100までの奇数の合計は" + oddSum1 + "です");
+		
+		// 1~100までの偶数の合計を求めよ
+		int evenSum1 = 0;
+		for (int i = 1; i <= 100; i+=1) {
+			if (i % 2 == 0) {
+				evenSum1 += i;
+			}
+		}
+		System.out.println("1~100までの偶数の合計は" + evenSum1 + "です");
 	}
 }
