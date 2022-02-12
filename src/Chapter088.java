@@ -18,6 +18,17 @@ public class Chapter088 {
 		for (int j = 0; j < array.length; j++) {
 			System.out.println("2." + array[j]);
 		}
+		
+		/* 3. 拡張「for」文
+		　・「2.」の配列をループ
+		　・要素の値が偶数の場合は、continue文で処理をスキップ、奇数の場合は出力
+		*/
+		for (int arr : array) {
+			if (arr % 2 == 0) {
+				continue;
+			}
+			System.out.println("3." + arr);
+		}
 	}
 
 }
